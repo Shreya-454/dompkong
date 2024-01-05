@@ -43,13 +43,13 @@ const info = [
 
 const Team = () => {
   const infocard = info.map((info) => (
-    <div>
-      <div key={info.id} className="w-full border-t border-[#FDDA60] border-solid shadow-[0px_0px_4px_1px_#FDDA60] mb-[23px] mt-[65px]">
+    <div key={info.id}>
+      <div  className="w-full border-t border-[#FDDA60] border-solid shadow-[0px_0px_4px_1px_#FDDA60] mb-[23px] mt-[65px]">
         {" "}
       </div>
       <div   className="flex flex-wrap flex-row -mx-3">
         <div className="md:w-1/2 w-full px-3 flex flex-col items-center md:block mb-5 md:mb-0">
-          <h4 className="font-mont text-white font-bold md:text-2xl text-xl leading-[26.1px] mb-3" data-aos="fade-right" data-aos-duration="4000" data-aos-easing="linear">
+          <h4 className="font-mont text-white font-bold md:text-2xl text-xl leading-[26.1px] mb-3" data-aos="fade-right" data-aos-duration="4000"  data-aos-easing="linear">
             {info.name}
           </h4>
           <h5 className="text-white md:text-xl text-lg font-mont leading-[21.75px] mb-8" data-aos="fade-right" data-aos-duration="4000" data-aos-easing="linear">
