@@ -36,7 +36,7 @@ const Header = () => {
         <div className="flex justify-end">
           <div className="flex items-center justify-between sm:w-[55%] w-full mb-5">
             <img src={logo} alt="logo" />
-            <button onClick={Mymodal} className="text-center font-AzoSans bg-[#FDDA60] py-4 px-6 rounded-[4px] text-[12px] md:text-base shadow-[0px_9px_29px_0px_#FDDA6080]" data-aos="fade-up-left" data-aos-duration="2000"   data-aos-easing="linear">
+            <button onClick={Mymodal} className="text-center font-AzoSans bg-[#FDDA60] py-4 px-6 rounded-[4px] text-[12px] md:text-base shadow-[0px_9px_29px_0px_#FDDA6080] border-[4px] border-solid border-transparent hover:border-black duration-500 hover:shadow-none" data-aos="fade-up-left" data-aos-duration="2000"   data-aos-easing="linear">
               cONNECT wALLET
             </button>
           </div>
@@ -161,30 +161,30 @@ const Header = () => {
         et. Erat nam molestie. Vita
       </p>
       <div className="flex gap-4 md:gap-8 justify-center">
-        <button className="py-4 px-4 md:px-6 bg-[#FDDA60] rounded-[4px] font-AzoSans text-[12px] md:text-base shadow-[0px_4px_16px_0px_#FDDA6080]" data-aos="fade-up" data-aos-duration="1000"   data-aos-easing="linear">
+        <button className="py-4 px-4 md:px-6 bg-[#FDDA60] rounded-[4px] font-AzoSans text-[12px] md:text-base shadow-[0px_4px_16px_0px_#FDDA6080] border-[4px] border-solid border-transparent hover:border-black duration-500 hover:shadow-none" data-aos="fade-up" data-aos-duration="1000"   data-aos-easing="linear">
           Whitepaper
         </button>
-        <button className="py-4 px-4 md:px-6 bg-[#FDDA60] rounded-[4px] font-AzoSans text-[12px] md:text-base shadow-[0px_4px_16px_0px_#FDDA6080]" data-aos="zoom-in" data-aos-duration="1000"   data-aos-easing="linear" >
+        <button className="py-4 px-4 md:px-6 bg-[#FDDA60] rounded-[4px] font-AzoSans text-[12px] md:text-base shadow-[0px_4px_16px_0px_#FDDA6080] border-[4px] border-solid border-transparent hover:border-black duration-500 hover:shadow-none" data-aos="zoom-in" data-aos-duration="1000"   data-aos-easing="linear" >
           Mint
         </button>
-        <button className="py-4 px-4 md:px-6 bg-[#FDDA60] rounded-[4px] font-AzoSans text-[12px] md:text-base shadow-[0px_4px_16px_0px_#FDDA6080]" data-aos="fade-up" data-aos-duration="1000"   data-aos-easing="linear">
+        <button className="py-4 px-4 md:px-6 bg-[#FDDA60] rounded-[4px] font-AzoSans text-[12px] md:text-base shadow-[0px_4px_16px_0px_#FDDA6080] border-[4px] border-solid border-transparent hover:border-black duration-500 hover:shadow-none" data-aos="fade-up" data-aos-duration="1000"   data-aos-easing="linear">
           Opensea
         </button>
       </div>
       <img
         src={monkey1}
         alt="monkey"
-        className="absolute bottom-0 right-[27%] hidden sm:block"
+        className="absolute bottom-0 right-[27%] hidden sm:block z-[-1]" 
       />
       <img
         src={monkey2}
         alt="monkey"
-        className="absolute bottom-0 right-[8%] hidden xl:block"
+        className="absolute bottom-0 right-[8%] hidden xl:block z-[-1]"
       />
       <img
         src={monkey3}
         alt="monkey"
-        className="absolute bottom-0 right-0 hidden lg:block"
+        className="absolute bottom-0 right-0 hidden lg:block z-[-1]"
       />
     </div>
   );

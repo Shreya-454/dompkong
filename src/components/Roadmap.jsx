@@ -213,7 +213,7 @@ const Roadmap = () => {
           </div>
         </div>
         <div className="flex justify-center md:mt-16 mt-0">
-          <button className=" font-AzoSans md:text-xl text-lg leading-[21.75px] bg-[#FDDA60] py-4 px-6 rounded-[4px] shadow-[0px_4px_24px_0px_#FDDA60CC]">
+          <button className=" font-AzoSans md:text-xl text-lg leading-[21.75px] bg-[#FDDA60] py-4 px-6 rounded-[4px] shadow-[0px_4px_24px_0px_#FDDA60CC] border-[4px] border-solid border-transparent hover:border-black duration-500 hover:shadow-none">
             {" "}
             Read Our Whitepaper
           </button>

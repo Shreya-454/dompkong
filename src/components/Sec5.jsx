@@ -106,7 +106,7 @@ const Sec5 = () => {
                 </span>
               </button>
             </div>
-            <button className="md:text-2xl text-xl font-AzoSans text-center w-full bg-[#FDDA60] rounded-[4px] py-[18px] shadow-[0px_4px_15px_0px_#FDDA6080]">
+            <button className="md:text-2xl text-xl font-AzoSans text-center w-full bg-[#FDDA60] rounded-[4px] py-[18px] shadow-[0px_4px_15px_0px_#FDDA6080] border-[4px] border-solid border-transparent hover:border-black duration-500 hover:shadow-none">
               MINT NOW
             </button>
           </div>
