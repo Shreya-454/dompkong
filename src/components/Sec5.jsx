@@ -30,7 +30,7 @@ const Sec5 = () => {
             <img src={wine} alt="wine" data-aos="zoom-out-down" data-aos-duration="2300"  data-aos-easing="linear" />
           </div>
           <div className="lg:w-1/2 md:w-7/12 w-full px-3   mb-10 md:mb-0">
-            <h3 className="text-white font-AzoSans text-[45px] md:text-[64px] leading-[69.6px] mb-12">
+            <h3 className="text-white font-AzoSans text-[45px] md:text-[64px] leading-[69.6px] mb-12 text-center md:text-start">
               Mint NFT
             </h3>
             <div className="flex justify-between mb-12">
