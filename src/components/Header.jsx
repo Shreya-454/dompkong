@@ -3,6 +3,7 @@ import logo from "../assets/images/logo.png";
 import monkey1 from "../assets/images/monkey1.png";
 import monkey2 from "../assets/images/monkey2.png";
 import monkey3 from "../assets/images/Albert.png";
+import cross from '../assets/images/x-mark.png'
 const Header = () => {
   const [modal, setmodal] = useState(false);
   function Mymodal() {
@@ -21,14 +22,14 @@ const Header = () => {
             modal ? "top-0 m-10" : "top-[-100%] m-0"
           } fixed top-0 w-[250px] h-[200px] rounded-[20px] duration-300 bg-[#FDDA60] z-[100] mx-auto flex-col flex justify-center items-center`}
         >
-          <p className="text-base text-black hover:text-white font-AzoSans font-normal duration-300">
+          <p className="text-3xl text-black hover:text-white font-AzoSans font-normal duration-300">
             It is a Modal
           </p>
           <button
             onClick={Mymodal}
-            className="text-base text-white hover:text-[#000] font-AzoSans font-normal duration-300 mt-4 hover:bg-white bg-[#000] border border-black px-3 py-2 rounded-[8px] "
+            className="absolute right-[5%] top-[5%] "
           >
-            Back
+           <span><img src={cross} alt="cross" className="w-[30px] h-[30px]"/></span>
           </button>
         </div>
       </div>
