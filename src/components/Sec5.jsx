@@ -4,16 +4,24 @@ import gradient1 from "../assets/images/gradient-1.png";
 import gradient2 from "../assets/images/gradient-2.png";
 
 const Sec5 = () => {
-  const [first, setFirst] = useState(0o0);
+  const [first, setFirst] = useState(3);
   function ADD() {
-    setFirst(first + 1);
-  }
-  function minus() {
-    setFirst(first - 1);
-    if (first === 0) {
-      setFirst(first - 0);
+    if (first > 9) {
+      setFirst(10);
+    }
+    else {
+      setFirst(first + 1)
     }
   }
+  function minus() {
+    if (first < 4) {
+      setFirst(3);
+    }
+    else {
+      setFirst(first - 1);
+    }
+  }
+  const mainfirst = first < 10 ? `0${first}` : first;
   return (
     <div className="relative overflow-hidden z-[1] pt-[82px] pb-[62px]">
       <img src={gradient1} alt="g1" className="absolute top-0 left-0 right-0 " />
@@ -84,7 +92,7 @@ const Sec5 = () => {
                 </span>
               </button>
               <div className="bg-transparent border-[2px] border-solid border-white rounded-[4px]  py-[13px] text-white text-3xl md:text-4xl font-mont text-center leading-[39.15px] font-black ]  w-full">
-                {first}
+                {mainfirst}
               </div>
               <button
                 className="bg-white rounded-[4px] md:py-[30px] md:px-[30px] max-w-[85px] w-full"
