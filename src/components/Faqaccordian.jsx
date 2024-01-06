@@ -26,6 +26,8 @@ function Icon({ id, open }) {
 const Faqaccordian = () => {
   const [open, setOpen] = React.useState(1);
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
+    const Dates = new Date()
+    const year = Dates.getFullYear()
   return (
     <div className="md:pt-36 pt-10 relative">
       <div className="w-[247px] h-[247px] bg-[#FDDA60] blur-[146.5px] absolute left-0 bottom-0 hidden sm:block "></div>
@@ -237,7 +239,7 @@ const Faqaccordian = () => {
       <div className="w-full border-t border-t-solid border-t-white mt-7"></div>
       <div className="max-w-[1140px] mx-auto px-3">
         <p className="text-white font-mont text-base leading-[19.5px] text-center pt-4 pb-5">
-          © DomPKong 2022
+          © DomPKong {year}
         </p>
       </div>
     </div>
