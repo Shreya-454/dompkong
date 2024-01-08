@@ -122,7 +122,7 @@ const Team = () => {
     </div>
   ));
   return (
-    <div className="bg-[#0A0A0A]">
+    <div className="bg-[#0A0A0A] mb-5">
       <div className="max-w-[1140px] mx-auto px-3">
         <h2 className=" font-AzoSans text-[45px] md:text-[64px] text-white text-center leading-[69.6px] mb-[53px]">
           Meet The Team
