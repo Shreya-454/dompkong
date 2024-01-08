@@ -35,7 +35,7 @@ function App() {
         </div>
       ) : (
         <div>
-          <div className="bg-[#0A0A0A]">
+          <div className="bg-[#0A0A0A] overflow-hidden">
             <div className="bg-[url(./assets/images/header-bg.png)] bg-center bg-cover bg-no-repeat">
               <Header />
             </div>
